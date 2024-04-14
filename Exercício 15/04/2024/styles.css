@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(238, 75, 75);
+    font-family: Helvetica;
+    text-align: center;
+}
+
+img {
+    width: 112px;
+    padding-top: 20px;
+}
+
+p {
+    font-size: small;
+    padding-bottom: 20px;
+    padding-inline: 30px;
+}
+
+button {
+    background-color: rgb(255, 196, 0);
+    font-weight: bold;
+    padding: 10px 40px;
+    border: 3px solid black;
+    border-radius: 3px;
+}
+
+.box {
+    text-align: center;
+    box-sizing: border-box;
+    background-color: white;
+    border: 5px solid black;
+    border-radius: 10px;
+    width: 300px;
+    height: 340px;
+    position:relative;
+}
+
+.shadow {
+    box-sizing: border-box;
+    background-color: rgb(255, 196, 0);
+    border: 5px solid black;
+    border-radius: 10px;
+    width: 300px;
+    height: 340px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    z-index: -10;
+}
