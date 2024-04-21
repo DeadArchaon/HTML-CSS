@@ -1,0 +1,130 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:300,300italic,regular,italic,500,500italic,700,700italic);
+
+html,
+body {
+    font-family: Ubuntu;
+    font-weight: 400;
+    font-size: 16px;
+    background: rgba(10, 10, 10, 1);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    justify-content: center;
+    color: white;
+    font-size: 12px;
+}
+
+.board {
+    border: 1px solid rgba(50, 50, 50, 1);
+    background: rgba(20, 20, 20, 1);
+    display: flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.cell {
+    border: 0.5px dashed rgba(50, 50, 50, 1);
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.target {
+    background-color: rgb(94, 94, 94);
+}
+
+.ball {
+    width: 20px;
+    height: 20px;
+    background: rgb(87, 64, 236);
+    position: absolute;
+    margin: 10px;
+    border-radius: 100%;
+}
+
+pre {
+    display: inline;
+}
+
+
+
+/* Coloca o teu CSS a partir daqui */
+.ball-0 {
+    position: relative;
+    right: 40px;
+    bottom:360px;
+    left: 80px; 
+}
+
+.ball-1 {
+    position: relative;
+    right: 50px;
+    bottom:400px;
+    left: 40px; 
+}
+
+.ball-2 {
+    position: relative;
+    right: 50px;
+    bottom:120px;
+    left: 120px;
+}
+
+.ball-3 {
+    position: relative;
+    right: 50px;
+    bottom:240px;
+    left: 40px;
+}
+
+.ball-4 {
+    position: relative;
+    right: 50px;
+    bottom:240px;
+    left: 280px;
+}
+
+.ball-5 {
+    position: relative;
+    right: 50px;
+    bottom:240px;
+    left: 160px;
+}
+
+.ball-6 {
+    position: relative;
+    right: 50px;
+    bottom:120px;
+    left: 320px;
+}
+
+.ball-7 {
+    position: relative;
+    right: 50px;
+    bottom:120px;
+    left: 1px;
+}
+
+.ball-8 {
+    position: relative;
+    right: 50px;
+    bottom:160px;
+    left: 280px;
+}
+
+.ball-9 {
+    position: relative;
+    right: 50px;
+    bottom:280px;
+    left: 240px;
+}
+
+.ball-10 {
+    position: relative;
+    right: 50px;
+    bottom:360px;
+    left: 80px;
+}

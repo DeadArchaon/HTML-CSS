@@ -1,0 +1,21 @@
+button {
+    width: 90px;
+    height: 32px;
+}
+
+.blue {
+    background-color: #0070D2;
+}
+
+.white {
+    background-color: #FFFFFF;
+}
+
+.red {
+    background-color: #C23934;
+}
+
+.green {
+    background-color: #4BCA81;
+}
+

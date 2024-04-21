@@ -1,0 +1,122 @@
+@import url(‘https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap’);
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+    
+body {
+    background: rgb(168,12,83);
+    background: linear-gradient(90deg, rgba(168,12,83,1) 32%, rgba(103,16,152,1) 70%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.sportscard {
+    font-family: “IBM Plex Sans”, sans-serif;
+    background-color: white;
+    color: white;
+    width: 300px;
+    height: 500px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.orangy {
+    background: rgb(255,23,4);
+    background: linear-gradient(63deg, rgba(255,23,4,1) 0%, rgba(254,199,6,1) 78%);
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px 8px 0 0;
+    overflow: hidden;
+    height: 400px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.logo, .price {
+    height: 20px;
+    margin: 10px;
+    font-size: 18px;
+}
+
+.middle {
+    margin: 10px;
+}
+
+h1 {
+    font-size: 18px;
+    font-weight: lighter;
+    padding-bottom: 10px;
+}
+
+p {
+    font-size: 12px;
+    font-weight: lighter;
+    line-height: 20px;
+}
+
+.air {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.50;
+    font-size: 180px;
+    letter-spacing: 35px;
+    font-weight: 500px;
+    left: 40px;
+    position: relative;
+    top: -20px;
+}
+
+.img2 {
+    width: 320px;
+    height: 320px;
+}
+.tilha {
+    position: absolute;
+    top: 230px;
+    left: 150px;
+}
+
+
+.bottom {
+    background-color: inherit;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 100px;
+    border-radius: 0 0 10px 10px;
+}
+
+button {
+    margin-top: 24px;
+    height: 40px;
+    width: 100px;
+    border-radius: 50px;
+    border-color: blue;
+    color:blue;
+    font-weight: bold;
+    position: relative;
+}
+
+button:hover {
+    background-color: blue;
+    color: white;
+}
+
+.runny {
+    color: lightgrey;
+    letter-spacing: 6px;
+    font-size: 10px;
+    align-items: flex-end;
+    justify-content: center;
+}
