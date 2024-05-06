@@ -1,0 +1,205 @@
+
+html, body {
+    margin: 0;
+    border: 0;
+    background-color: pink;
+    color: white;
+    font-size: 24px;
+    font-weight: lighter;
+    font-family: Verdana;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container1 {
+    height: 200px;
+    border-bottom: solid;
+}
+
+.rectangule {
+    width: 150px;
+    height: 80px;
+    margin: auto;
+    background-color: rgb(12, 101, 235);
+    border-radius: 5px;
+    transform: skew(150deg, 180deg) translate(0, 0);
+    box-shadow: 25px 25px 8px 8px rgb(88, 88, 88);
+    animation-name: Ascendio;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes Ascendio {
+    to {
+        transform: skew(150deg, 180deg) translate(20%, 20%);
+        box-shadow: 1px 1px 1px 1px rgb(0, 0, 0);
+    }
+}
+
+.container2 {
+    height: 200px;
+    border-bottom: solid;
+}
+
+.blue--line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    gap: 24px;
+    width: 100%;
+    padding: 40px;
+    position: relative;
+}
+
+.bluey {
+    width: 240px;
+    height: 8px;
+    border-radius: 5px;
+    background-color: white;
+    position: relative;
+}
+
+.bluey::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    background: rgb(12, 101, 235);
+    animation-name: Locomotor;
+    animation-fill-mode: forwards;
+    animation-duration: 2s;
+    animation-direction: alternate;
+}
+
+.bluey:nth-child(1)::after {
+    animation-duration: 0s;
+}
+    
+.bluey:nth-child(2)::after {
+        animation-delay: 2s;
+}
+    
+.bluey:nth-child(3)::after {
+        animation-delay: 4s;
+}
+    
+.bluey:nth-child(4)::after {
+        animation-delay: 6s;
+ }
+
+@keyframes Locomotor {
+    from {
+            width: 0;
+    }
+    to {
+            width: 100%;
+    }
+}
+
+.container3 {
+    height: 200px;
+    border-bottom: solid;
+}
+
+.afa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-weight: bold;
+}
+
+.a {
+    animation-name: Aparecium;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.5s;
+    opacity: 0
+}
+
+.p {
+    animation-name: Aparecium;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+    opacity: 0
+}
+
+.p2 {
+    animation-name: Aparecium;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 1.5s;
+    opacity: 0
+}
+
+.e {
+    animation-name: Aparecium;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+    opacity: 0
+}
+
+.a2 {
+    animation-name: Aparecium;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 2.5s;
+    opacity: 0
+}
+
+.r {
+    animation-name: Aparecium;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 3s;
+    opacity: 0
+}
+
+@keyframes Aparecium {
+    from {
+        opacity: 0;
+    }
+    
+    to {
+        opacity: 1;
+    }
+}
+
+.container4 {
+    height: 200px;
+    border-bottom: solid;
+}
+
+.boxy {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(12, 101, 235);
+    position: absolute;
+    animation-name: Immobulus;
+    animation-duration: 4s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+}
+
+.boxy:hover {
+    animation-play-state: paused;
+}
+
+@keyframes Immobulus {
+    from {
+        left:0;
+    }
+    to {
+        left: 100%
+    }
+}

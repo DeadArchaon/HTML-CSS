@@ -23,6 +23,7 @@ body {
     margin: 10px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    position: relative;
 }
 
 .orangy {
@@ -80,11 +81,13 @@ p {
     width: 320px;
     height: 320px;
 }
+
 .tilha {
     position: absolute;
-    top: 230px;
-    left: 150px;
+    top: 180px;
+    left: 25px;
 }
+
 
 
 .bottom {

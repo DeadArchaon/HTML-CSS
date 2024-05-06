@@ -207,48 +207,44 @@ body {
 .flag--greece{
     display: flex;
     flex-direction: column;
-
 }
     .greece--blue {
         background-color: #003399;
         width: 100%;
-        height: calc(100%/9)
+        height: calc(100% /9);
     }
 
     .greece--white {
         background-color: white;
         width: 100%;
-        height: calc(100%/9);
+        height: calc(100% /9);
     }
 
     .greece--bluebox {
+        margin: 0;
+        padding: 0;
         background-color: #003399;
-        height: calc(100%/5);
-        aspect-ratio: 1;
+        height: calc((100% /9)*5);
+        aspect-ratio: 1/1;
         position: absolute;
-        margin-top: 0px;
-        margin-left: 0px;
+    }
+
+    .greece--strip1 {
+        background-color: white;
+        width: 100%;
+        height: calc(100% /5);
+        position: relative;
+        top: 40%;
+        z-index: 1;
+    }
+
+    .greece--strip2 {
+        background-color: white;
+        width: 100%;
+        height: calc(100% /5);
+        top: 20%;
+        position: relative;
+        transform: rotate(90deg);
         z-index: 2;
     }
-
-    .greece--bluebox :nth-child(2) {
-        height: calc(100% /3);
-        position: relative;
-    }
-
-    .flag--greece.greece--bluebox.greece--strip1 {
-        background-color: palevioletred;
-        width: calc(100%/2);
-        height: calc(100%/2);
-        position: relative;
-        z-index: 3;
-    }
-
-    .flag--greece.greece--bluebox.greece-strip2 {
-        background-color: red;
-        transform: rotate(90deg);
-        width: 100px;
-        height: calc(100% *5 /3);
-        position: relative;
-        z-index: 3;
-    }
+   
