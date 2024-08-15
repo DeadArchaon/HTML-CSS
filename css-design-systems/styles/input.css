@@ -3,7 +3,8 @@
     height: 1rem;
 }
 
-.form, .form-two{
+.form, .form-two,
+    .form-three, .form-four{
     display: flex;
     justify-content: center;
     width: 100%;
@@ -12,7 +13,15 @@
 }
 
 .form-two input{
-    border: 1px solid #C23934;
+    border: 2px ridge blue;
+}
+
+.form-three input{
+    background-color: lightgrey;
+}
+
+.form-four input{
+    border: 2px solid #C23934;
     
 }
 
@@ -36,13 +45,13 @@ input{
     border-radius: 3px;
 }
 
-.inputs-two{
+.inputs-three{
     display: flex;
     position: relative;  
 }
 
-.inputs-three input{
-    padding-left: 10%;
+.inputs-two input{
+    padding-left: 12%;
 }
 
 .icon-search{
